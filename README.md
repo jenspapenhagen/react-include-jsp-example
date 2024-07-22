@@ -1,15 +1,15 @@
 # Include React App into existing JSP App #
 
-[!WARNING]
-this is only an example Project
+> [!WARNING]
+> this is only an example Project
 
 We use am simple [Apache Tomcat 10](https://tomcat.apache.org/) App,
 inside a Docker Compose Setup
 the folder "app" is mounted into the right postion of the Tomcat.
 the web.xml is only for this example.
 
-[!TIP]
-under "app/WEB-INF/lib" we need to install [JSTL](https://projects.eclipse.org/projects/ee4j.jstl) by download the [spec](https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.0)
+> [!TIP]
+> under "app/WEB-INF/lib" we need to install [JSTL](https://projects.eclipse.org/projects/ee4j.jstl) by download the [spec](https://mvnrepository.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.0)
  an the [impl](https://mvnrepository.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl/3.0.1)
 
 ## Buidling the React App with Vite ##
