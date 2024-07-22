@@ -1,0 +1,14 @@
+:button-test {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+button {
+  background-color: #c3c3c3;
+}
+button:hover {
+  border-color: #3137ad;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}

@@ -1,0 +1,10 @@
+services:
+  tomcat:
+   image: tomcat:10.1.26-jre21-temurin-jammy
+   ports:
+    - 8080:8080
+   volumes:
+    - ./app:/usr/local/tomcat/webapps/app
+    - /home/docker-data/tomcat/logs:/usr/local/tomcat/logs
+volumes:
+  webapps:
