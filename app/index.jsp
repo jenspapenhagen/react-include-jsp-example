@@ -6,8 +6,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>include react componente into JSP</title>
-    <script type="module" crossorigin src="./assets/index-b8kMnBYi.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D1ddMlpR.css">
+    <script type="module" crossorigin src="/assets/index-CJayE8PP.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-YaAbbLKl.css">
   </head>
   <body>
 
