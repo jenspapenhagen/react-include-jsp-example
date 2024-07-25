@@ -14,8 +14,8 @@ the web.xml is only for this example.
 
 ## Buidling the React App with Vite ##
 
-Overview: <https://vitejs.dev/guide/> \
-Better user with TypeScript
+Overview: [Vite Guide](https://vitejs.dev/guide/) \
+better use with TypeScript
 
 this example react app is under "react-app"
 to build the react app we use npm. Other tools like yarn are fine, too.
