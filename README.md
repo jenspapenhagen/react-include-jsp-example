@@ -31,7 +31,7 @@ Copy the linking of the CSS and JS file into the needed jsp file.
 Than copy the HTML Snipped:
 
 ```HTML
-<div id="button-test"></div>
+<div id="weather-icon"></div>
 ```
 
 on the right place.

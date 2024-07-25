@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>include react componente into JSP</title>
-    <script type="module" crossorigin src="/assets/index-CJayE8PP.js"></script>
+    <script type="module" crossorigin src="/assets/index-224J9g32.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-YaAbbLKl.css">
   </head>
   <body>
@@ -18,6 +18,6 @@
 </c:forEach> 
 
 <p> React Component (full react expedients with Hook): </p>
-	<div id="button-test"></div>
+	<div id="weather-icon"></div>
   </body>
 </html>
