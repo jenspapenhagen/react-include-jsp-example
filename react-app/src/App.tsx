@@ -1,16 +1,19 @@
-import { useState } from 'react'
 import './App.css'
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+import TemperatureIcon from './TemperatureIcon';
+const queryClient = new QueryClient();
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-       
-    </>
+    // Provide the client to your App
+    <QueryClientProvider client={queryClient}>
+      <TemperatureIcon />
+    </QueryClientProvider>
   )
 }
 

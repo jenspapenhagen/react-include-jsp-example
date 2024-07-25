@@ -18,7 +18,7 @@ Overview: <https://vitejs.dev/guide/> \
 Better user with TypeScript
 
 this example react app is under "react-app"
-run the build of the react
+to build the react app we use npm. Other tools like yarn are fine, too.
 
 ```shell
 npm install
