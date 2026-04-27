@@ -6,9 +6,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/react-app"
     schedule:
-      interval: "daily"
+      interval: "weekly"
     commit-message:
       prefix: "deps(npm):"
     groups:
@@ -31,8 +31,8 @@ updates:
           - "vite-plugin-*"
           - "vitest"
           - "@vitest/*"
-    open-pull-requests-limit: 10
-
+    open-pull-requests-limit: 10    
+     
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
